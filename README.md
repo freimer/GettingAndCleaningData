@@ -27,12 +27,6 @@ The following are the directions provided for this assignment:
 >
 >Good luck!
 
-## Initial Data Download
+## Initial Data Download and Transformations for Analysis
 
-The data for this assignment is provided via an AWS CloudFront content distribution network.  Since the dataset is rather large, and the download of the data is not required to be automated via an R script according to the instrucitons, the dataset is downloaded only once via the following command:
-
-```
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "dataset.zip")
-```
-
-After this command is run the dataset will be available in the file "dataset.zip" -- all subsequent commands will work on this original downloaded file.
+The CodeBook.md file contains instructions on downloading the original file, the structure of the original data and all of the variables in the dataset, and the transformations performed on the data to prepare it for analysis.
