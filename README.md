@@ -29,4 +29,4 @@ The following are the directions provided for this assignment:
 
 ## Initial Data Download and Transformations for Analysis
 
-The CodeBook.md file contains instructions on downloading the original file, the structure of the original data and all of the variables in the dataset, and the transformations performed on the data to prepare it for analysis.
+The [CodeBook.md](https://github.com/freimer/GettingAndCleaningData/blob/master/CodeBook.md) file contains instructions on downloading the original file, the structure of the original data and all of the variables in the dataset, and the transformations performed on the data to prepare it for analysis.
