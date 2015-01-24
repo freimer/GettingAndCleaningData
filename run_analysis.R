@@ -91,5 +91,11 @@ write.csv(data, file="tidy_data.csv")
 
 # Step 5 - Create a second, independent tidy data set with the average of each variable for each
 # activity and subject
+mean_data <- data %>% group_by(activity, subject) %>% summarise_each(funs(mean))
 
+# Fixup column names!
+colnames(mean_data) <- c("activity", "subject", paste0("Mean_", colnames(mean_data[, 1:(ncol(mean_data)-2)])))
+
+# Save new tidy data set
+write.csv(mean_data, file="mean_tidy_data.csv")
 
