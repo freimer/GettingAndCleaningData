@@ -30,3 +30,11 @@ The following are the directions provided for this assignment:
 ## Initial Data Download and Transformations for Analysis
 
 The [CodeBook.md](https://github.com/freimer/GettingAndCleaningData/blob/master/CodeBook.md) file contains instructions on downloading the original file, the structure of the original data and all of the variables in the dataset, and the transformations performed on the data to prepare it for analysis.
+
+The CodeBook.md file also contains the annotated run_analysis.R script described below, and details the step-by-step process used to transform the data into the tidy data set.
+
+## R Script to Transform the Data
+
+The [run_analysis.R]() file contains the script to extract the data, peform the transformation into a tidy data set, and perform the analysis required in step 5.  It is documented much like the CodeBook.md file.
+
+
