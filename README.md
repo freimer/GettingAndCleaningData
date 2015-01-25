@@ -35,6 +35,6 @@ The CodeBook.md file also contains the annotated run_analysis.R script described
 
 ## R Script to Transform the Data
 
-The [run_analysis.R]() file contains the script to extract the data, peform the transformation into a tidy data set, and perform the analysis required in step 5.  It is documented much like the CodeBook.md file.
+The [run_analysis.R](https://github.com/freimer/GettingAndCleaningData/blob/master/run_analysis.R) file contains the script to extract the data, peform the transformation into a tidy data set, and perform the analysis required in step 5.  It is documented much like the CodeBook.md file.
 
 
