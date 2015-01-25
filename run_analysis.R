@@ -94,7 +94,7 @@ write.csv(data, file="tidy_data.csv")
 mean_data <- data %>% group_by(activity, subject) %>% summarise_each(funs(mean))
 
 # Fixup column names!
-colnames(mean_data) <- c("activity", "subject", paste0("Mean_", colnames(mean_data[, 1:(ncol(mean_data)-2)])))
+colnames(mean_data) <- c("activity", "subject", paste0("Mean_", colnames(mean_data)[3:ncol(mean_data)]))
 
 # Save new tidy data set
 write.csv(mean_data, file="mean_tidy_data.csv")
