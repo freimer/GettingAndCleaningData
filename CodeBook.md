@@ -125,6 +125,11 @@ Below are the steps used to transform and analyze the data
 	feature_names <- feature_names[grepl("(mean|std)\\(", feature_names$name), c("name")]
 	```
 
+	Replace - with _ in feature names, and remove () in feature names
+
+	```
+	feature_names <- gsub("[()]", "", gsub("[-]", "_", feature_names))
+	```
 
 3. Use descriptive names to name the activities in the data set
 
