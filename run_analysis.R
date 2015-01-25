@@ -76,7 +76,7 @@ rm(activities)
 data <- cbind(feature, activity, subject)
 colnames(data) <- c(feature_names, "activity", "subject")
 rm(feature,activity,subject,feature_names)
-write.csv(data, file="tidy_data.csv")
+write.table(data, file="tidy_data.txt", row.names=FALSE)
 
 # We have now tidied up our data set!
 #
